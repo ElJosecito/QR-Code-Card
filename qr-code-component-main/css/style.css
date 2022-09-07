@@ -16,14 +16,14 @@ body{
 .box{
     background-color: white;
     width: 300px;
-    height: 70%;
+    height: 470px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    border-radius: 25px 25px 25px 25px;
-    -webkit-border-radius: 25px 25px 25px 25px;
-    -moz-border-radius: 25px 25px 25px 25px;
+    border-radius: 20px ;
+    -webkit-border-radius: 20px;
+    -moz-border-radius:20px;
 
     box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.23);
     -webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.23);
@@ -37,9 +37,9 @@ body{
     background-position: center;
     width: 90%;
     height: 60%;
-    border-radius: 25px 25px 25px 25px;
-    -webkit-border-radius: 25px 25px 25px 25px;
-    -moz-border-radius: 25px 25px 25px 25px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
 }
 
 .text_container{
@@ -51,14 +51,16 @@ body{
     font-family: 'Outfit', sans-serif;
     color: hsl(218, 44%, 22%);
     font-weight: 700;
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 
 h3{
     font-family: 'Outfit', sans-serif;
     color: #C4C3C7;
     font-weight: 400;
-    font-size: .8em;
+    font-size: .9em;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .attribution{
